@@ -270,6 +270,11 @@ for game in ['air_raid', 'alien', 'amidar', 'assault', 'asterix', 'asteroids', '
 # ----------------------------------------
 
 register(
+    id='Game2048-v0',
+    entry_point='gym.envs.board_game:Game2048Env'
+)
+
+register(
     id='Go9x9-v0',
     entry_point='gym.envs.board_game:GoEnv',
     kwargs={

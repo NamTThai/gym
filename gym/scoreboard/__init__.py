@@ -266,6 +266,11 @@ add_task(
     summary='Hex played on a 9x9 board.',
 )
 
+add_task(
+    id='Game2048-v0',
+    group='board_game',
+    summary='The viral game 2048, played on a 4x4 board.'
+)
 
 # box2d
 
